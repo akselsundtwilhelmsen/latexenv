@@ -4,7 +4,7 @@ Creates a wordcount.sh that will output the wordcount of the pdf compiled from t
 
 ## Installation
 Place script in /usr/local/bin/
-`sudo chmod +x /usr/local/bin/latexenv`
+Then `sudo chmod +x /usr/local/bin/latexenv`
 
 ## Usage
 Create a directory and run `latexenv` in it.
