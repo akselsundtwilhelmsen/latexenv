@@ -1,0 +1,21 @@
+#!/bin/bash
+
+echo '\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[norsk]{babel}
+
+\author{}
+\title{}
+
+\begin{document}
+
+\section{}
+
+\maketitle
+
+\end{document}' > "${PWD##*/}".tex
+
+echo '#!/bin/sh
+pdftotext *.pdf - | wc -w' > wordcount.sh
+
+chmod +x wordcount.sh
