@@ -9,9 +9,9 @@ echo '\documentclass{article}
 
 \begin{document}
 
-\section{}
-
 \maketitle
+
+\section{}
 
 \end{document}' > "${PWD##*/}".tex
 
